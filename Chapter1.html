@@ -64,7 +64,11 @@
               <a class="nav-link" href="editorials.html">Editorials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare">RoadMap</a>
+              <a
+                class="nav-link"
+                href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare"
+                >RoadMap</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -75,56 +79,95 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/post-bg.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Editorials</h1>
-              <span class="subheading">Our Solutions to Some of our favoraite Contests</span>
+            <div class="post-heading">
+              <h1>
+                Selected Problems From Codechef Campus Chapter Contest 1
+              </h1>
+              <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <span class="meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on August 24, 2019</span> -->
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="longMarch20.html">
-              <h2 class="post-title">
-                Long Challenge March 2020  Division 2
-              </h2>
-              <h3 class="post-subtitle">
-                <a href="https://www.codechef.com/MARCH20B">Contest Link</a>
-
-              </h3>
-            </a>
-            <div class="post-preview">
-              <a href="Chapter1.html">
-                <h2 class="post-title">
-                  Codechef Campus Chapter 1
-                </h2>
-                <h3 class="post-subtitle">
-                  <a href="https://www.codechef.com/CHPTRS01">Contest Link</a>
-  
-                </h3>
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <a href="https://www.codechef.com/CHPTRS01?itm_campaign=contest_listing"
+          >Original Contest Link</a
+        >
+        <h1>Table of content</h1>
+        <ul>
+          <li><a href="#ARTPNT">Save Us!</a></li>
+        </ul>
+        <div id="ARTPNT" class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <h2 class="section-heading">Save Us ARTPNT</h2>
+            <p>
+              Original Problem Link:
+              <a href="https://www.codechef.com/CHPTRS01/problems/ARTPNT"
+                >ARTPNT
               </a>
-            <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="#"
-              >Older Posts &rarr;</a
-            >
-          </div>
+            </p>
+
+            <p>
+              Author Name: Mohammed Shahraaz Hussain
+              <a href=" http://linkedin.com/in/shahraaz">linkedin link</a>
+            </p>
+
+            <p>
+              Prequisutes: Block Cut Tree and Dp on Trees.
+            </p>
+
+            <p>
+              Explaination:
+              <br />
+              First, let us solve this for a tree. For the root, we check how
+              many children subtrees are totally infection free and how many
+              have at least one infected. If no child subtree has at least one
+              infected we save the whole tree except the infected person.
+              Otherwise, we save all subtree which is infection-free. By
+              rerooting, we can solve this for the whole tree. And choose the
+              best node.
+              <br />
+              <script src="https://gist.github.com/Shahraaz/a7868b54508b5ed4b36b0eadf23c2ffd.js"></script>
+              <br />
+              Now for a general graph, we can find the block cut tree (idea from
+              here
+              <a href="https://www.quora.com/q/threadsiiithyderabad/The-Bridge-Tree-of-a-graph">https://www.quora.com/q/threadsiiithyderabad/The-Bridge-Tree-of-a-graph</a>
+              
+              Code from <a href="https://ideone.com/hCUME3">https://ideone.com/hCUME3</a>  I edited it a bit).
+
+              <br>
+              Some picture of to give u an idea of what must be done
+              <br>
+              <a href="./artpnt.png">Original Graph</a>
+              <br>
+              <a href="./blockCutTree.png.png">Block Cut Tree</a>
+              <br>
+              Observation removing articulation points is the best. Each node in
+              the block cut tree is a combination of multiple nodes in the input
+              graph. We need to check if a node of the block cut tree represents
+              only one node in the input graph, also check if that node is an
+              articulation point in the original graph and finally check if the
+              node is infected. If all the checks pass do some similar
+              computation for the node and consider that node
+            </p>
+            <h3>Full Code Solution</h3>
+            <script src="https://gist.github.com/Shahraaz/6440cedcfc9ab9bd0f168faa190a3a43.js"></script>          </div>
         </div>
       </div>
-    </div>
+    </article>
 
     <hr />
-
     <!-- Footer -->
     <footer>
       <div class="container">
@@ -157,7 +200,7 @@
               </li>
             </ul>
             <p class="copyright text-muted">
-              Copyright &copy; Shahraaz Hussain 2019
+              Copyright &copy; Shahraaz Hussain 2020
             </p>
           </div>
         </div>
