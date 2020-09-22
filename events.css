@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	background-color: #e0e0e0;
 }
@@ -5,7 +8,7 @@ body{
 	text-align: center;
 	background-color: #003366;
 	color: #ffffff;
-	background-image: url('img/home-bg.jpg');
+	
 }
 #main2{
 	text-align: center;
@@ -15,7 +18,7 @@ body{
 .event{
 	border-collapse: collapse;
 	margin: 2px 0;
-	min-width: 400px;
+	min-width: 30vw;
 	border-radius: 5px 5px 0 0;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
@@ -54,7 +57,7 @@ padding: 12px 15px;
 	left: 2%;
 	border-collapse: collapse;
 	margin: 2px 0;
-	min-width: 400px;
+	min-width: 60vw;
 	border-radius: 5px 5px 0 0;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
@@ -88,29 +91,8 @@ padding: 30px 15px;
 	background-color: #a9a9a9;
 }
 .footer{
-	width: 100vw;
-	display: block;
-	overflow: hidden;
-	padding: 60px 0;
-	box-sizing: border-box;
-	background-color: #ffffff;
-	text-align: center;
-	position: relative;
-	top: 40%;
+	margin: 20px;
 	border-top: 1px solid #ccc;
-
-}
-.inner_footer{
-	display: block;
-	margin 0 auto;
-	width: 1100px;
-	height: 100%;
-}
-.list-inline-item{
-	position: relative;
-	left: 30%;
-}
-.copyright-text-muted{
-	position: relative;
-	left: 30%;
+	padding-top: 30px;
+	text-align: center;
 }
