@@ -12,13 +12,18 @@ body{
 	display: block;
 	text-align: center;
 }
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
 img{
 	position: relative;
 	left: 18%;
 	height: auto;
 	width: auto;
 	overflow: hidden;
-	width: 60%;
+	width: 65%;
 	border: 15px;
 }
 iframe{
