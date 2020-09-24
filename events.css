@@ -17,6 +17,24 @@ body{
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
 }
+.ig{
+	display: block;
+	border-collapse: collapse;
+  margin: auto;
+  width: 58%;
+  float: left;
+
+
+}
+.fb{
+	display: block;
+	border-collapse: collapse;
+	 margin: auto;
+	 width: 1%
+	 padding: 10px;
+	 float: left;
+
+}
 img{
 	position: relative;
 	left: 18%;
