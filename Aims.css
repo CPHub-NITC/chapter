@@ -1,0 +1,12 @@
+.table tbody tr:hover{
+	background-color: #a9a9a9;
+}
+.heading {
+	text-align: center;
+}
+.footer{
+	margin: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 30px;
+	text-align: center;
+}
