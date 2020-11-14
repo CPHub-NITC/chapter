@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #e0e0e0;
+}
+.heading{
+	text-align: center;
+	border-bottom: 10px;
+}
+.timer{
+	display: block;
+	text-align: center;
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.ig{
+	display: block;
+	border-collapse: collapse;
+  margin: auto;
+  width: 58%;
+  float: left;
+
+
+}
+.fb{
+	display: block;
+	border-collapse: collapse;
+	 margin: auto;
+	 width: 1%
+	 padding: 10px;
+	 float: left;
+
+}
+img{
+	position: relative;
+	left: 18%;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+	width: 65%;
+	border: 15px;
+}
+iframe{
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	padding: 10px;
+	border-bottom: 10px;
+		width: 60%;
+}
+.left,.right{
+	display: block;
+	padding: 15px;
+	text-align: center;
+
+
+}
+#main{
+	text-align: center;
+	background-color: #003366;
+	color: #ffffff;
+	
+}
+#main2{
+	text-align: center;
+	background-color: #003366;
+	color: #e0e0e0;
+}
+.event{
+	border-collapse: collapse;
+	margin: 2px 0;
+	min-width: 30vw;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	width: 30%;
+	float: left;
+	background-color: #ffffff;
+}
+.event thead tr{
+	background-color: #182228;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+.event th,.event td{
+padding: 12px 15px;
+
+}
+.event tbody tr{
+	border-top: 1px;
+	border-bottom: 1px solid #dddddd;
+}
+.event tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+.event tbody tr:last-of-type{
+	border-bottom: 2px solid #dddddd;
+}
+.event tbody tr:hover{
+	background-color: #a9a9a9;
+}
+.main3{
+	display: inline;
+}
+.current{
+	position: relative;
+	left: 2%;
+	border-collapse: collapse;
+	margin: 2px 0;
+	min-width: 60vw;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.15);
+	width: 65%;
+	float: left
+}
+.current thead tr{
+	width:400%;
+	display: block;
+	text-align: center;
+	background-color: #182228;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.current tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+.current tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+.current th,.current td{
+padding: 30px 15px;
+
+}
+.current tbody tr:last-of-type{
+	border-bottom: 2px solid #dddddd;
+}
+.current tbody tr:hover{
+	background-color: #a9a9a9;
+}
+.footer{
+	margin: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 30px;
+	text-align: center;
+
