@@ -79,6 +79,75 @@
     </div>
   </header>
 
+   <style type="text/css">
+  .quote{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    color: #777;
+    font-size: 15px;
+    background-color: #fff;
+
+  }
+  blockquote{
+    display: block;
+    position: relative;
+    width: 65%;
+    margin: 5rem auto;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Times',serif;
+    color: #1785b5;
+  }
+  blockquote::before{
+    content: '\201c';
+    top:30px;
+    left:-40px;
+  }
+  blockquote::after{
+    content: '\201d';
+    left: 88%;
+  }
+  blockquote::before,blockquote::after{
+    font-size: 6rem;
+    position: absolute;
+  }
+  blockquote cite{
+    display: block;
+    position: absolute;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.2;
+    color: #888;
+    top:100%;
+    padding-left: 80%;
+
+  }
+  blockquote cite a{
+    color: #333;
+  }
+  blockquote cite a:hover{
+    color: #178b5b;
+  }
+  blockquote cite::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+
+  }
+</style>
+  <div class="quote">
+    <blockquote>
+            <p>Coming together is a beginning. Keeping together is progress. Working together is success.</p>
+            <cite>
+              Henry Ford
+            </cite>
+          </blockquote>
+  </div>
+
   <!-- Main Content -->
 
   <div class="heading" style="max-width: 1080px;margin: 0 auto !important;float: none !important;">
